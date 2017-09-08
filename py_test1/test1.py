@@ -10,5 +10,6 @@ def get_title_po():
         name_list.append(c.group(1))
     print(name_list)
     print(name_position)
+    print(aaa)
 
 get_title_po()
