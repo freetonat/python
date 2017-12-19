@@ -40,9 +40,10 @@ def traverse_site(max_links=10):
         except Exception:
             continue
         # Skip if not a web page
-        aaa = status.get('content-type')
-        print aaa
-        if status.get('content-type') != 'text/html; charset=utf-8':
+        content_type = status.get('content-type')
+        print content_type
+        if status.get('content-type') not in ('text/html', 'text/html;charset=UTF-8', 'text/html; charset=utf-8'):
+        #if status.get('content-type') != 'text/html':
             print "******"
             continue
         # Add the link to queue for downloading images
@@ -98,9 +99,8 @@ def download_images(thread_name):
         print thread_name, 'finished downloading images from', url
 
 if __name__ == '__main__':
-    #root = 'http://python.org'
+    root = 'http://python.org'
     #root = 'http://comic.naver.com/index.nhn'
-    root = "https://www.pinterest.co.kr/nsw7504/%EC%9E%91%EC%9D%80-%EC%A7%91/?utm_campaign=rdboards&e_t=b6622e2bf20244449d8216e951c20c6d&utm_content=775252592044378620&utm_source=31&utm_term=1&utm_medium=2004"
     parsed_root = urlparse(root)
     print('parsed_root={}'.format(parsed_root))
     singleton = Singleton()

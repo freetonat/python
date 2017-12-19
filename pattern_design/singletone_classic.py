@@ -17,4 +17,4 @@ print singletone.only_one_var
 print another_singletone.only_one_var
 child = Child()
 print child
-child.only_one_var
+print child.only_one_var
