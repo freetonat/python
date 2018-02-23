@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+#-*- coding: utf-8 -*-
 __author__ ='eyonson'
 
 import logging
@@ -34,3 +35,12 @@ logger.error("파일로도 남으니 안심이죠~!")
 logger.critical("치명적인 버그는 꼭 파일로 남기기도 하고 메일로 발송하세요!")
 logger.debug("===========================")
 logger.info("TEST END!")
+output = '''
+===========================
+TEST START
+스트림으로 로그가 남아요~
+파일로도 남으니 안심이죠~!
+치명적인 버그는 꼭 파일로 남기기도 하고 메일로 발송하세요!
+===========================
+TEST END!
+'''

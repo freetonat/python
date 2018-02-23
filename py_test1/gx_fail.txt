@@ -1,0 +1,6 @@
+                active-predefined-charging-rules: 0
+                active-predefined-charging-rulebases: 0
+                dynamic-charging-rules: 0
+                temporary-offline-sessions: 0
+                permanently-offline-sessions: 3932145
+                offline-sessions: 0

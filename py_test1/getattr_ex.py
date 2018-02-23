@@ -32,3 +32,11 @@ fun = getattr(cls, 'start')
 
 workers = WorkWrapper(fun, 'install-dallas')
 workers.start()
+output = '''
+***** WorkWrapper *****
+<bound method DallasTasks.start of <__main__.DallasTasks object at 0x005D6B90>>
+install-dallas
+WorkWrapper start
+testmethod start****
+work.go
+'''

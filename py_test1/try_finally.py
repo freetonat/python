@@ -11,4 +11,8 @@ try:
 except ZeroDivisionError:
     print('제수는 0이 될 수 없습니다!')
 finally:
-    print('무조건 실행되는 영역!')
+    print('무조건 실행되는 영역!')output = '''
+20
+제수는 0이 될 수 없습니다!
+무조건 실행되는 영역!
+'''

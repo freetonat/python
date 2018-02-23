@@ -181,4 +181,6 @@ class DctRecorderGen():
 if __name__ == '__main__':
     record_dct = DctRecorderGen()
     record_dct.initialize()
-    record_dct._proc_compute_picinfo()
+    record_dct._proc_compute_picinfo()output = '''
+status_file = /Users/freetonat/python\pdc_node_status_all.log
+'''

@@ -10,3 +10,26 @@ receive = Messenger(name='Receiving message')
 
 send.start()
 receive.start()
+'''
+output = 
+Sending out message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Sending out message
+Receiving message
+Receiving message
+'''

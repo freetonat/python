@@ -27,3 +27,8 @@ task.get_object('dallas')
 
 
 
+output = '''
+()
+DallasTasks
+<class '__main__.DallasTasks'>
+'''
