@@ -27,4 +27,10 @@ class TaskMapper():
 taskmapper =  TaskMapper()
 task = taskmapper.get_task()
 print('task = {}'.format(task))
-task()
+task()output = '''
+cls = <class '__main__.NodeTasks'>
+self.args = Hi
+obj = <__main__.NodeTasks object at 0x00606330>
+task = <bound method NodeTasks.install of <__main__.NodeTasks object at 0x00606330>>
+NodeTasks.install
+'''

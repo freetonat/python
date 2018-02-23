@@ -10,4 +10,8 @@ data1 = ['2017-02-06 17:17:40', '127.3.16.1', '2', '1', '65696884', '18097352', 
 obj2 = Series(data1, index = index_data)
 #print(obj2)
 
-print(obj2[['gc-0/17/1-memory','Time']])
+print(obj2[['gc-0/17/1-memory','Time']])output = '''
+gc-0/17/1-memory               65696884
+Time                2017-02-06 17:17:40
+dtype: object
+'''

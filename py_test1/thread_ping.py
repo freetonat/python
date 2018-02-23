@@ -66,4 +66,6 @@ if __name__ == '__main__':
         'google.com', 'github.com', 'nonexisting', '127.0.1.2', '*not able to ping!*', '8.8.8.8'
         ]
 
-    print(ping.start())
+    print(ping.start())output = '''
+{'alive': [], 'dead': []}
+'''

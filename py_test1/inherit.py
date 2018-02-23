@@ -16,4 +16,8 @@ class SSRshellClient(Client):
         print("init session")
 
 test = SSRshellClient()
-test.init_session()
+test.init_session()output = '''
+Client
+Client.init_session
+init session
+'''
